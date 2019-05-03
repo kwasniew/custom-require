@@ -1,0 +1,5 @@
+var moduleA = require('./moduleA');
+
+module.exports = function() {
+    return moduleA.run();
+};
